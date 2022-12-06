@@ -189,6 +189,21 @@
   visibility: visible;
   border: 2px solid #d1d3d1;
 }
+.investor-type__radio-check > label {
+  margin: 0 50px 0 0;
+  color: black;
+  font-weight: 500;
+}
+.investor-type__radio-check > label::after {
+  content: "";
+  background-image: url(../img/tooltip.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+}
 
 .tooltip {
   display: none;
